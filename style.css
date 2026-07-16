@@ -51,9 +51,8 @@ body {
     text-align: center;
     gap: 1.2rem;
     border-radius: 1rem;
-    padding: clamp(2rem, 5vw, var(--size-500));
-    inline-size: 32.6rem;
-    max-inline-size: 100%;
+    padding: clamp(2rem, 5vw, 2.4rem);
+    inline-size: 35.9rem;
     background-color: var(--grey-800);
 }
 
@@ -63,41 +62,43 @@ body {
     border-radius: 50%;
     object-fit: cover;
     object-position: center;
+    margin-block-start: 1.4rem;
 }
 
 .social-profile__title {
     color: var(--white);
     font-size: 2.4rem;
     font-weight: 600;
-    margin-block-start: 0.8rem;
+    margin-block-start: 1.4rem;
 }
 
 .social-profile__paragraph-color {
     color: var(--green);
     font-size: var(--size-300);
     font-weight: 600;
+    margin-block-end: 1.2rem;
 }
 
 .social-profile__paragraph {
     color: rgb(165, 165, 165);
     font-size: var(--size-300);
     font-weight: 600;
-    line-height: 1.6rem;
-    margin-block-end: 0.8rem;
+    margin-block-end: 1.2rem;
+    margin-block-start: 1rem;
 }
 
 .social-profile__list {
     display: flex;
     flex-direction: column;
-    gap: 0.8rem;
+    gap: 1.6rem;
     color: var(--white);
     list-style: none;
     inline-size: 100%;
+    margin-block-end: 1.2rem;
 }
 
 .social-profile__link {
     display: block;
-    max-inline-size: 100%;
     inline-size: 100%;
     color: var(--white);
     text-decoration: none;
@@ -106,7 +107,6 @@ body {
     padding-block: clamp(1rem, 4vw, var(--size-300));
     transition: all 0.2s ease;
     font-size: 1.4rem;
-    margin-block-start: 0.8rem;
     font-weight: 600;
 }
 
