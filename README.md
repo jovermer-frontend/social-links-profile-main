@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![social-links-profile-desktop.png](163shots_so.png)
+![social-links-profile-desktop.png](287_1x_shots_so.png)
 
 ### Links
 
