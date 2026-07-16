@@ -68,8 +68,8 @@ body {
 .social-profile__title {
     color: var(--white);
     font-size: 2.4rem;
-    font-weight: 500;
-    margin-block-end: 1rem;
+    font-weight: 600;
+    margin-block-start: 0.8rem;
 }
 
 .social-profile__paragraph-color {
@@ -79,11 +79,11 @@ body {
 }
 
 .social-profile__paragraph {
-    color: var(--white);
+    color: rgb(165, 165, 165);
     font-size: var(--size-300);
-    font-weight: 500;
+    font-weight: 600;
     line-height: 1.6rem;
-    margin-block-end: 0.8rem
+    margin-block-end: 0.8rem;
 }
 
 .social-profile__list {
